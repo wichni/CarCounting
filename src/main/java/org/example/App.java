@@ -1,7 +1,9 @@
 package org.example;
 
+import org.opencv.core.Core;
+
 public class App {
   public static void main(String[] args) {
-    System.out.println("Car counting");
+    System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
   }
 }
